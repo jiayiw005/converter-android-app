@@ -10,13 +10,13 @@ I use Android Studio as the tool to code in Java and generate XML resource files
 A Comprehensive design documentation available at [Application_Design.pdf]()
 
 ##### Overall Setup
-<img width="499" alt="image" src="https://github.com/user-attachments/assets/62b4e09a-ebb0-4fc6-a74d-5b49ba630f64" />
+<img width="1370" alt="Screenshot 2025-01-15 at 13 58 36" src="https://github.com/user-attachments/assets/c798e50f-6614-444f-9919-907559e4a1a1" />
 
 ##### Data Flowchart
-<img width="499" alt="image" src="https://github.com/user-attachments/assets/80bf533b-9632-4a9b-8b3f-e0a15399682e" />
+<img width="1454" alt="Screenshot 2025-01-15 at 13 58 58" src="https://github.com/user-attachments/assets/3ac8f4c7-b12c-43f0-a5bb-8803da1a11c9" />
 
 ##### System Flowchart
-<img width="508" alt="image" src="https://github.com/user-attachments/assets/67ae90c4-fd87-4901-bd74-fb1e58b17ae6" />
+<img width="1303" alt="Screenshot 2025-01-15 at 13 59 32" src="https://github.com/user-attachments/assets/3b3c37a0-8631-426d-9eca-4482235b5ec1" />
 
 ##### UML Diagram
-<img width="499" alt="image" src="https://github.com/user-attachments/assets/b3e5b72f-8328-42b2-8847-cb12c313b241" />
+<img width="966" alt="Screenshot 2025-01-15 at 13 59 56" src="https://github.com/user-attachments/assets/c4da58ef-ec14-4f00-8224-e912b4b9fb33" />
