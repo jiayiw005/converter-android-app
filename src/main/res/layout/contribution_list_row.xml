@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/contribution_title"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Title"
+        />
+
+    <TextView
+        android:id="@+id/contribution_type"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contribution_title"
+        android:maxLength="50"
+        android:singleLine="true"
+        style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:text="Unknown type"
+        />
+
+    <TextView
+        android:id="@+id/contribution_time"
+        android:layout_below="@id/contribution_type"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contributed at xxxx:xxx"
+        />
+
+</RelativeLayout>

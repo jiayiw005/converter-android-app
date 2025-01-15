@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfileActivity"
+    android:background="@color/orange_dark"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageButton
+        android:id="@+id/profilePic"
+        android:contentDescription="profile pic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/avatar_default"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:textColor="@color/white"
+        android:shadowColor="@color/orange_bright"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="10"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profilePic" />
+
+    <EditText
+        android:id="@+id/signature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_introduction"
+        android:textColor="@color/white"
+        android:shadowColor="@color/orange_bright"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="10"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcome"
+        />
+
+    <EditText
+        android:id="@+id/community_joined"
+        android:background="@drawable/bg_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="170dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/user_community"
+        android:gravity="top"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/signature" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

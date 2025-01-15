@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewModuleFragment"
+    android:background="@color/orange_bright_more">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="contact us">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_module_instruction_en"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/new_module_email"
+                android:background="@drawable/bg_login"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint=" Your email"
+                />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/new_module_title"
+                android:background="@drawable/bg_login"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="@string/module_title"
+                android:gravity="top"
+                />
+            <EditText
+                android:id="@+id/new_module_description"
+                android:background="@drawable/bg_login"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:hint="@string/module_description"
+                android:gravity="top"
+                />
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="@string/btn_send_en"
+                android:textSize="17sp"
+                android:backgroundTint="@color/blue_dark"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

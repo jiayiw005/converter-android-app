@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.cvt.app-mergeDebugResources-43:/layout-w936dp-v13/activity_login.xml",
+        "source": "com.example.cvt.app-main-46:/layout-w936dp/activity_login.xml"
+    },
+    {
+        "merged": "com.example.cvt.app-mergeDebugResources-43:/layout-w936dp-v13/content_introduction.xml",
+        "source": "com.example.cvt.app-main-46:/layout-w936dp/content_introduction.xml"
+    }
+]

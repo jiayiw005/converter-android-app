@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cvt"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml
+10    <!-- Ask for permissions on user's mobile phone -->
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:5:5-81
+11-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:7:5-79
+13-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:7:22-76
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] /Users/nb_wjy/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.cvt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] /Users/nb_wjy/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] /Users/nb_wjy/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.cvt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] /Users/nb_wjy/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] /Users/nb_wjy/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:9:5-51:19
+22        android:allowBackup="true"
+22-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:10:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] /Users/nb_wjy/.gradle/caches/transforms-3/85625968673fb9fd8db34217596f6efd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:11:9-65
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:12:9-54
+28        android:icon="@drawable/logo"
+28-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:13:9-38
+29        android:label="@string/app_name"
+29-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:14:9-41
+30        android:supportsRtl="true"
+30-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:15:9-35
+31        android:theme="@style/Theme.Cvt" >
+31-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:16:9-41
+32        <activity
+32-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:18:9-20:40
+33            android:name="com.example.cvt.ResourceListRow"
+33-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:19:13-44
+34            android:exported="false" />
+34-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:20:13-37
+35        <activity
+35-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:21:9-23:40
+36            android:name="com.example.cvt.CommentListRow"
+36-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:22:13-43
+37            android:exported="false" />
+37-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:23:13-37
+38        <activity
+38-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:24:9-27:58
+39            android:name="com.example.cvt.UserProfileActivity"
+39-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:25:13-48
+40            android:exported="false"
+40-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:26:13-37
+41            android:windowSoftInputMode="adjustResize" />
+41-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:27:13-55
+42        <activity
+42-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:28:9-32:58
+43            android:name="com.example.cvt.LoginActivity"
+43-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:29:13-42
+44            android:exported="false"
+44-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:30:13-37
+45            android:label="@string/title_activity_login"
+45-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:31:13-57
+46            android:windowSoftInputMode="adjustResize" />
+46-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:32:13-55
+47        <activity
+47-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:33:9-37:60
+48            android:name="com.example.cvt.IntroductionActivity"
+48-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:34:13-49
+49            android:exported="false"
+49-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:35:13-37
+50            android:label="@string/title_activity_introduction"
+50-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:36:13-64
+51            android:theme="@style/Theme.Cvt.NoActionBar" />
+51-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:37:13-57
+52        <activity
+52-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:38:9-49:20
+53            android:name="com.example.cvt.Homepage2Activity"
+53-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:39:13-46
+54            android:exported="true"
+54-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:40:13-36
+55            android:label="@string/app_name"
+55-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:41:13-45
+56            android:theme="@style/Theme.Cvt.NoActionBar"
+56-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:42:13-57
+57            android:windowSoftInputMode="adjustResize" >
+57-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:43:13-55
+58            <intent-filter>
+58-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:44:13-48:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:45:17-69
+59-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:45:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:47:17-77
+61-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:47:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity android:name="com.example.cvt.SettingsActivity" />
+64-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:50:9-54
+64-->/Users/nb_wjy/AndroidStudioProjects/cvt/app/src/main/AndroidManifest.xml:50:19-51
+65
+66        <provider
+66-->[androidx.emoji2:emoji2:1.2.0] /Users/nb_wjy/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+67            android:name="androidx.startup.InitializationProvider"
+67-->[androidx.emoji2:emoji2:1.2.0] /Users/nb_wjy/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+68            android:authorities="com.example.cvt.androidx-startup"
+68-->[androidx.emoji2:emoji2:1.2.0] /Users/nb_wjy/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+69            android:exported="false" >
+69-->[androidx.emoji2:emoji2:1.2.0] /Users/nb_wjy/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+70            <meta-data
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/nb_wjy/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/nb_wjy/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+72                android:value="androidx.startup" />
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/nb_wjy/.gradle/caches/transforms-3/7efe218e7ae35cb58dbf86d5ee36a529/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+73            <meta-data
+73-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/nb_wjy/.gradle/caches/transforms-3/7495f4090f64d34b46f8102bfc12da1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/nb_wjy/.gradle/caches/transforms-3/7495f4090f64d34b46f8102bfc12da1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+75                android:value="androidx.startup" />
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/nb_wjy/.gradle/caches/transforms-3/7495f4090f64d34b46f8102bfc12da1e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+76        </provider>
+77
+78        <uses-library
+78-->[androidx.window:window:1.0.0] /Users/nb_wjy/.gradle/caches/transforms-3/6e2a43e8a6c1a6124991476f6b0b56fd/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+79            android:name="androidx.window.extensions"
+79-->[androidx.window:window:1.0.0] /Users/nb_wjy/.gradle/caches/transforms-3/6e2a43e8a6c1a6124991476f6b0b56fd/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+80            android:required="false" />
+80-->[androidx.window:window:1.0.0] /Users/nb_wjy/.gradle/caches/transforms-3/6e2a43e8a6c1a6124991476f6b0b56fd/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+81        <uses-library
+81-->[androidx.window:window:1.0.0] /Users/nb_wjy/.gradle/caches/transforms-3/6e2a43e8a6c1a6124991476f6b0b56fd/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+82            android:name="androidx.window.sidecar"
+82-->[androidx.window:window:1.0.0] /Users/nb_wjy/.gradle/caches/transforms-3/6e2a43e8a6c1a6124991476f6b0b56fd/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0] /Users/nb_wjy/.gradle/caches/transforms-3/6e2a43e8a6c1a6124991476f6b0b56fd/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+84    </application>
+85
+86</manifest>

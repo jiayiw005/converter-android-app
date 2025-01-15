@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModuleFragment">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="module"
+        android:fillViewport="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/instruction_board"
+                android:layout_width="match_parent"
+                android:layout_height="520dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_mainboard"
+                android:contentDescription="instruction board"
+                android:scaleType="fitCenter"
+                android:src="@drawable/philosophy_instruction" />
+
+            <ImageButton
+                android:id="@+id/resource_board"
+                android:layout_width="match_parent"
+                android:layout_height="213dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/bg_mainboard"
+                android:contentDescription="module"
+                android:scaleType="fitCenter"
+                android:src="@drawable/philosophy_resource_center" />
+
+            <ListView
+                android:id="@+id/discussionList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"></ListView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:backgroundTint="@color/orange_bright"
+        android:id="@+id/new_discussion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:contentDescription="new discussion"/>
+
+</FrameLayout>

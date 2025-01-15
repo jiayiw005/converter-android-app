@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        tools:context=".ResourceListRow">
+
+        <TextView
+            android:id="@+id/resource"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:maxWidth="250dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Resource Title"
+            />
+
+        <TextView
+            android:id="@+id/resource_publisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/resource"
+            android:maxLength="50"
+            android:singleLine="true"
+            style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+            android:text="Publisher"
+            />
+
+        <TextView
+            android:id="@+id/resource_time"
+            android:layout_below="@id/resource_publisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yy/MM/dd HH:mm"
+            />
+
+        <ImageView
+            android:id="@+id/collect_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:adjustViewBounds="true"
+            android:backgroundTint="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/baseline_collect_24" />
+
+        <TextView
+            android:id="@+id/collect_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="43dp"
+            android:layout_marginRight="22dp"
+            android:text="(0)" />
+
+
+    </RelativeLayout>

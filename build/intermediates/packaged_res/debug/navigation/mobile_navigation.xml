@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.cvt.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homepage_to_module"
+            app:destination="@id/nav_module" />
+        <action
+            android:id="@+id/action_homepage_to_new_module"
+            app:destination="@id/nav_new_module" />
+        <action
+            android:id="@+id/action_homepage_to_introduction"
+            app:destination="@id/nav_intro" />
+        <action
+            android:id="@+id/action_homepage_to_signup"
+            app:destination="@id/nav_signup" />
+        <action
+            android:id="@+id/action_homepage_to_settings"
+            app:destination="@id/nav_settings" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.cvt.contact.ContactFragment"
+        android:label="contact"
+        tools:layout="@layout/fragment_contact" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_collection"
+        android:name="com.example.cvt.collection.CollectionFragment"
+        android:label="collection"
+        tools:layout="@layout/fragment_collection" >
+        <action
+            android:id="@+id/action_collection_to_discussion"
+            app:destination="@id/nav_discussion" />
+        <action
+            android:id="@+id/action_collection_to_signup"
+            app:destination="@id/nav_signup" />
+        <action
+            android:id="@+id/action_collection_to_resource"
+            app:destination="@id/nav_resource" />
+        <action
+            android:id="@+id/action_collection_to_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_contribution"
+        android:name="com.example.cvt.contribution.ContributionFragment"
+        android:label="contribution"
+        tools:layout="@layout/fragment_contribution" >
+        <action
+            android:id="@+id/action_contribution_to_discussion"
+            app:destination="@id/nav_discussion" />
+        <action
+            android:id="@+id/action_contribution_to_signup"
+            app:destination="@id/nav_signup" />
+        <action
+            android:id="@+id/action_contribution_to_resource"
+            app:destination="@id/nav_resource" />
+        <action
+            android:id="@+id/action_contribution_to_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_new_module"
+        android:name="com.example.cvt.NewModuleFragment"
+        android:label="discussion"
+        tools:layout="@layout/fragment_new_module" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_intro"
+        android:name="com.example.cvt.introduction.IntroductionFragment"
+        android:label="introduction"
+        tools:layout="@layout/fragment_introduction" >
+        <action
+            android:id="@+id/action_introduction_to_contact"
+            app:destination="@id/nav_contact" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_signup"
+        android:name="com.example.cvt.signup.SignupFragment"
+        android:label="signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signup_to_homepage"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+        <fragment
+            android:id="@+id/nav_module"
+            android:name="com.example.cvt.ModuleFragment"
+            android:label="module"
+            tools:layout="@layout/fragment_module">
+            <action
+                android:id="@+id/action_module_to_discussion"
+                app:destination="@id/nav_discussion" />
+            <action
+                android:id="@+id/action_module_to_resource_nest"
+                app:destination="@id/nav_resource_center" />
+            <action
+                android:id="@+id/action_module_to_new_discussion"
+                app:destination="@id/nav_new_discussion" />
+            <action
+                android:id="@+id/action_module_to_home"
+                app:destination="@id/nav_home" />
+        </fragment>
+        <fragment
+            android:id="@+id/nav_discussion"
+            android:name="com.example.cvt.DiscussionFragment"
+            android:label="discussion"
+            tools:layout="@layout/fragment_discussion" >
+        </fragment>
+        <fragment
+            android:id="@+id/nav_settings"
+            android:name="com.example.cvt.SettingsFragment"
+            android:label="settings" >
+            <action
+                android:id="@+id/action_settings_to_intro"
+                app:destination="@id/nav_intro" />
+            <action
+                android:id="@+id/action_settings_to_contact"
+                app:destination="@id/nav_contact" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/nav_new_discussion"
+            android:name="com.example.cvt.NewDiscussionFragment"
+            android:label="new discussion"
+            tools:layout="@layout/fragment_new_discussion" >
+            <action
+                android:id="@+id/action_new_discussion_to_module"
+                app:destination="@id/nav_module" />
+        </fragment>
+        <fragment
+                android:id="@+id/nav_resource_center"
+                android:name="com.example.cvt.ResourceCenterFragment"
+                android:label="resource center"
+                tools:layout="@layout/fragment_resource_center">
+                <action
+                    android:id="@+id/action_resource_center_to_resource"
+                    app:destination="@id/nav_resource" />
+                <action
+                    android:id="@+id/action_resource_center_to_new_resource"
+                    app:destination="@id/nav_new_resource" />
+            </fragment>
+            <fragment
+                android:id="@+id/nav_resource"
+                android:name="com.example.cvt.ResourceFragment"
+                android:label="resource"
+                tools:layout="@layout/fragment_resource" >
+            </fragment>
+            <fragment
+                android:id="@+id/nav_new_resource"
+                android:name="com.example.cvt.NewResourceFragment"
+                android:label="new resource"
+                tools:layout="@layout/fragment_new_resource" >
+                <action
+                    android:id="@+id/action_new_resource_to_resource_center"
+                    app:destination="@id/nav_resource_center" />
+            </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.cvt.profile.ProfileFragment"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profile_to_signup"
+            app:destination="@id/nav_signup" />
+        <action
+            android:id="@+id/action_profile_to_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+</navigation>
+

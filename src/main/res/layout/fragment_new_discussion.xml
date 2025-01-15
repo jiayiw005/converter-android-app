@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_bright_more"
+    tools:context=".NewDiscussionFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="contact us">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/discussion_title"
+                android:background="@drawable/bg_login"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint=" Disucssion title"
+                android:gravity="top"
+                />
+            <EditText
+                android:id="@+id/discussion_content"
+                android:background="@drawable/bg_login"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:hint=" Discussion content"
+                android:gravity="top"
+                />
+            <Button
+                android:id="@+id/btn_create"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="create"
+                android:textSize="17sp"
+                android:backgroundTint="@color/blue_dark"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

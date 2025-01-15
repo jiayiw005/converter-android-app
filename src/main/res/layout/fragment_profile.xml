@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.ProfileFragment"
+    android:background="@color/orange_bright_more">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/profilePic"
+                    android:contentDescription="profile pic"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/avatar_default"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="80dp"
+                    />
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="USERNAME"
+                    android:textColor="@color/white"
+                    android:shadowColor="@color/orange_bright"
+                    android:shadowDx="-1"
+                    android:shadowDy="-1"
+                    android:shadowRadius="10"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_below="@+id/profilePic"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"/>
+
+                <EditText
+                    android:id="@+id/signature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_introduction_en"
+                    android:textColor="@color/white"
+                    android:shadowColor="@color/orange_bright"
+                    android:layout_below="@+id/username"
+                    android:shadowDx="-1"
+                    android:shadowDy="-1"
+                    android:shadowRadius="10"
+                    android:textSize="15sp"
+                    android:textStyle="normal"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@null"
+                    />
+
+                <EditText
+                    android:id="@+id/community_joined"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/signature"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_login"
+                    android:gravity="top"
+                    android:hint=" Communities you joined:"
+                    android:minHeight="170dp"
+                    android:selectAllOnFocus="true" />
+
+                <Button
+                    android:id="@+id/btn_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/community_joined"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/blue_dark"
+                    android:text="Log Out"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+
+        </ScrollView>
+
+</FrameLayout>

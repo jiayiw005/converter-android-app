@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="notifications_category"
+        android:title="Notifications">
+
+        <SwitchPreferenceCompat
+            android:id="@+id/notification"
+            android:key="notifications"
+            android:title="Enable message notifications"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Enable Night Mode">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="NIGHT"
+            android:title="Night Mode"/>
+
+    </PreferenceCategory>
+
+<!--    <PreferenceCategory android:title="Language">-->
+<!--        <ListPreference-->
+<!--            android:defaultValue="false"-->
+<!--            android:key="LANGUAGE"-->
+<!--            android:entries="@array/languages_name"-->
+<!--            android:entryValues="@array/languages_value"-->
+<!--            android:title="Language"/>-->
+<!--    </PreferenceCategory>-->
+
+    <PreferenceCategory
+        android:key="help_category"
+        android:title="About">
+        <Preference
+            android:key="about"
+            android:summary="Version 1.0.0"
+            android:title="About Us"/>
+        <Preference
+            android:key="feedback"
+            android:summary="Report technical issues or suggest new features"
+            android:title="Send feedback"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

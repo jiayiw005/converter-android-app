@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_bright_more"
+    tools:context=".contact.ContactFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="contact us">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_us_title_en"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_intro_en"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_info_title_en"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_title_en"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/email_address"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/form_title_en"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/user_email_contact"
+                android:background="@drawable/bg_login"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint=" Your email"
+                />
+            <EditText
+                android:id="@+id/message"
+                android:background="@drawable/bg_login"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:hint=" Input your message here"
+                android:gravity="top"
+                />
+            <Button
+                android:id="@+id/send"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:text="@string/btn_send_en"
+                android:textSize="20sp"
+                android:backgroundTint="@color/blue_dark"
+                />
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_welcome_en"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

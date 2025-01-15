@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_dark"
+    tools:context=".signup.SignupFragment">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_welcome_en"
+        android:textColor="@color/white"
+        android:shadowColor="@color/orange_bright"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="10"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_welcome_sub_en"
+        android:textColor="@color/white"
+        android:shadowColor="@color/orange_bright"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="10"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_marginTop="155dp"
+        />
+
+    <EditText
+            android:id="@+id/username"
+            android:background="@drawable/bg_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+            android:hint=" Email"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true"/>
+    <EditText
+        android:id="@+id/password"
+        android:background="@drawable/bg_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        android:hint=" Password"
+        android:imeActionLabel="@string/action_sign_in_short_en"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"/>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="340dp"
+        android:text="@string/action_log_in_en"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/signup"
+        />
+
+</FrameLayout>

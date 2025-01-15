@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".CommentListRow">
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Comment"
+        />
+
+    <TextView
+        android:id="@+id/comment_publisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/comment"
+        android:maxLength="50"
+        android:singleLine="true"
+        style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:text="Publisher"
+        />
+
+    <TextView
+        android:id="@+id/comment_time"
+        android:layout_below="@id/comment_publisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yy/MM/dd HH:mm"
+        />
+
+
+</RelativeLayout>

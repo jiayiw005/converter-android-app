@@ -1,0 +1,350 @@
+[
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_baseline_search_24.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/baseline_search_24.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_activity_resource_list_row.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/activity_resource_list_row.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_new_discussion.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_new_discussion.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-hdpi_classroom.JPG.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-hdpi/classroom.JPG"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/menu_search_menu.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/menu/search_menu.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_philosophy_instruction.png.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/philosophy_instruction.png"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_cs_resource_center.png.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/cs_resource_center.png"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_computerscience.png.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/computerscience.png"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_ic_menu_camera.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_baseline_delete_24.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/baseline_delete_24.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_nav_header_homepage2.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/nav_header_homepage2.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_border1.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/border1.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_contact.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_contact.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_logo.png.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/logo.png"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_theater_resource_center.png.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/theater_resource_center.png"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_bg_login.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/bg_login.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_theater_instruction.png.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/theater_instruction.png"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_bg_module.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/bg_module.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_theater.png.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/theater.png"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_new_module.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_new_module.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-hdpi_editing.jpeg.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-hdpi/editing.jpeg"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_activity_login.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_baseline_archive_24.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/baseline_archive_24.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/navigation_mobile_navigation.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_activity_user_profile.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/xml_preference.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/xml/preference.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_introduction.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_introduction.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_dialog_signin.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/dialog_signin.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_philosophy_resource_center.png.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/philosophy_resource_center.png"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_contribution_list_row.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/contribution_list_row.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout-w936dp_content_introduction.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout-w936dp/content_introduction.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_philosophy.png.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/philosophy.png"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_baseline_collect_24.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/baseline_collect_24.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_cs_instruction.png.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/cs_instruction.png"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_signup.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_signup.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_resource_center.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_resource_center.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_bg_mainboard.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/bg_mainboard.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-hdpi_camp_photo.JPG.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-hdpi/camp_photo.JPG"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_home.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_contribution.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_contribution.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_content_introduction.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/content_introduction.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout-w1240dp_activity_login.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout-w1240dp/activity_login.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_side_nav_bar.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/menu_menu_introduction.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/menu/menu_introduction.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_like.png.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/like.png"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/menu_homepage2.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/menu/homepage2.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_mainboard.png.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/mainboard.png"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_resource.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_resource.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_profile.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_new_resource.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_new_resource.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/menu_activity_homepage2_drawer_2.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/menu/activity_homepage2_drawer_2.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_collection.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_collection.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_baseline_send_24.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/baseline_send_24.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_activity_comment_list_row.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/activity_comment_list_row.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/xml_backup_rules.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/menu_activity_homepage2_drawer.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/menu/activity_homepage2_drawer.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_app_bar_homepage2.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/app_bar_homepage2.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_settings.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_activity_homepage2.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/activity_homepage2.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_content_homepage2.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/content_homepage2.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_module.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_module.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_avatar_default.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/avatar_default.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_collection_list_row.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/collection_list_row.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_fragment_discussion.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_discussion.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-hdpi_introduction_logo.png.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-hdpi/introduction_logo.png"
+    },
+    {
+        "merged": "com.example.cvt.app-merged_res-44:/layout_fragment_contact.xml.flat",
+        "source": "com.example.cvt.app-main-46:/layout/fragment_contact.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout-w1240dp_content_introduction.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout-w1240dp/content_introduction.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_ic_menu_gallery.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout-w936dp_activity_login.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout-w936dp/activity_login.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-merged_res-44:/layout_activity_introduction.xml.flat",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/activity_introduction.xml"
+    }
+]

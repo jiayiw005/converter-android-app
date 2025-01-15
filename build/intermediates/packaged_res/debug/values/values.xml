@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages_name">
+        <item>中文（简体）</item>
+        <item>中文（繁體）</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="languages_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="blue_bright">#03A9F4</color>
+    <color name="blue_dark">#3F51B5</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="orange_bright">#FFC107</color>
+    <color name="orange_bright_more">#FBD45C</color>
+    <color name="orange_dark">#FF9800</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFEB3B</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <string name="action_introduction">目前，我们人数并不多，能力和影响力也刚刚起步；在今后的课程中，我们会陆续邀请更多专业人士入驻平台，分享资源；此外，我们也期待着开启新的课程专栏——假如你恰好有专长与热情，欢迎随时通过公众号后台留言或发送邮件至项目邮箱converterproject@yeah.net联系我们，给予反馈意见，加入我们！📮</string>
+    <string name="action_introduction_en">For now, we are still a small team, and our influence has just started. In the future, we will invite more professionals to settle and join us, providing students with new-coming resources. In addition, we are looking forward to opening new course columns: if you happen to have the expertise and enthusiasm, please feel free to contact us at any time through the our official accounts on social media or send an email to converterproject@yeah.net. Give feedback, and join us!📮</string>
+    <string name="action_log_in">登陆或注册</string>
+    <string name="action_log_in_en">Log In or Sign Up</string>
+    <string name="action_settings">设置</string>
+    <string name="action_settings_en">Settings</string>
+    <string name="action_share">分享</string>
+    <string name="action_share_en">Share</string>
+    <string name="action_sign_in">注册</string>
+    <string name="action_sign_in_en">Sign in</string>
+    <string name="action_sign_in_short_en">Sign in</string>
+    <string name="app_name">Converter</string>
+    <string name="background_introduction">在“双减”政策颁布后，长久以来根深蒂固地存在于公立小初教育以及职业教育中的不平等问题并未通过此类政策调整获得实质上的改善，甚至有愈发严重的趋势。针对这一现象，我们通过网站与app应用平台建立线上学生社群，并为学生提供各类非学科领域的素养拓展活动与课程。</string>
+    <string name="background_introduction_en">After the implementation of the "Double Reduction" policy, inequality in public primary and secondary education and vocational education, which has been existing for a long time, hasn\'t been substantially improved with policy adjustments alike, and even tends to become worse. In response to this phenomenon, we set up online student communities through websites and mobile application to provide students with various extracurricular courses and activities.</string>
+    <string name="btn_bold">加粗</string>
+    <string name="btn_bold_en">Bold</string>
+    <string name="btn_collect">收藏</string>
+    <string name="btn_collect_en">Collect</string>
+    <string name="btn_italic">斜体</string>
+    <string name="btn_italic_en">Italics</string>
+    <string name="btn_send">发送</string>
+    <string name="btn_send_en">Send</string>
+    <string name="btn_underline">下划线</string>
+    <string name="btn_underline_en">Underline</string>
+    <string name="comment">评论内容</string>
+    <string name="comment_en">Comment</string>
+    <string name="contact_info_title">联系方式</string>
+    <string name="contact_info_title_en">Contact Information</string>
+    <string name="contact_intro">我们一起来讨论!👋 您可以随时通过以下联系信息（邮件或社交媒体账号讯息）联系我们，或者直接使用表单发送消息。</string>
+    <string name="contact_intro_en">You may contact us at any time using the contact information (either our email address or private messages to our social media accounts), or send us a message directly through the form below.</string>
+    <string name="contact_us_title">加入对话！</string>
+    <string name="contact_us_title_en">Engage the Dialogue</string>
+    <string name="contact_welcome">我们欢迎每一位反馈者，提议者，合作者——转换者等待着您的加入！</string>
+    <string name="contact_welcome_en">We genuinely welcome every feedback, proposal, and collaboration. We\'re looking forward to your further engagement!</string>
+    <string name="current_introduction">经过细致的调查与考量，我们决定微调项目方向。自2021年十一月以来，经过数百天的准备，我们收集了来自全国各地公办义务教育小初学校，以及职业学校学生的两千余份问卷，并对十余位相关学生进行一对一深度访谈，全面了解到了当下教育不平等的严重问题以及学生们在课外拓展方面的匮乏。</string>
+    <string name="current_introduction_en">After careful investigation and consideration, we decided to fine-tune the project direction. Since November 2021, after hundreds of days of comprehensive preparation, we have collected more than 2,000 questionnaires from students in public compulsory education and vocational schools all over China and conducted one-on-one in-depth interviews with 10+ students within the scope, which gave us a thorough understanding of the severity of educational inequality and students\' lack of extracurricular development.</string>
+    <string name="discussion_content">输入讨论内容……</string>
+    <string name="discussion_content_en">Discussion content</string>
+    <string name="discussion_des">讨论内容概览</string>
+    <string name="discussion_des_en">Discussion description</string>
+    <string name="discussion_title">输入讨论标题……</string>
+    <string name="discussion_title_en">Input discussion title...</string>
+    <string name="email_address">converterproject@yeah.net</string>
+    <string name="email_title">邮箱地址📮</string>
+    <string name="email_title_en">Email Address📮</string>
+    <string name="form_title">信息表单</string>
+    <string name="form_title_en">Messaging Form</string>
+    <string name="general_introduction">我们是CONVERTER——助力转变、拥抱不确定性与多样差异的转换者。我们着眼于教育不平等这一社会问题，并主要从国内一至九年级公办义务教育与职业教育两方面入手进行深入剖析。希望我们的关注能够促使该问题在社会层面得到更多关注，帮助教育不平等问题得到实际的改善。</string>
+    <string name="general_introduction_en">We are CONVERTER who help transform and embrace uncertainty and diversity. We focus on the social issue of educational inequality, exploring from problems faced by the G1 to G9 students from public compulsory education and vocational school students in China. Hopefully, our efforts will bring more attention to this issue at a social level and help make concrete improvements in educational inequality in China.</string>
+    <string name="goal_introduction">CONVERTER项目希望能够通过线上平台——包括网站与app应用，根据课外拓展兴趣建立线上学生社区，实现各类知识资源的共享与社群支持，帮助学生们探索自身宽广的可能性。</string>
+    <string name="goal_introduction_en">CONVERTER hopes to establish an online student community based on extracurricular interests on platforms including websites and mobile apps, in order to realize the sharing of learning resources and communal supports and to help students explore their own possibilities without any grading or financial concerns.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro_title_1">我们是谁？</string>
+    <string name="intro_title_1_en">Who are We?</string>
+    <string name="intro_title_2">我们从哪里来？</string>
+    <string name="intro_title_2_en">Where Do We Come From?</string>
+    <string name="intro_title_3">我们到哪里去？</string>
+    <string name="intro_title_3_en">Where Do We Go? </string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_welcome">欢迎加入转换者!:)</string>
+    <string name="login_welcome_en">Welcome to CONVERTER!:)</string>
+    <string name="login_welcome_sub">成为我们的一员，探索转换者社区！</string>
+    <string name="login_welcome_sub_en">Join us to fully explore the community!</string>
+    <string name="logo_introduction">在logo的主体部分，我们采用了传统八卦图样——就同我们的名字“转换者”所表达的一般，我们希望起到转换、生成的作用。我们logo的背景则是采用了蒙德里安的作品《百老汇爵士乐》，呈现出直线条排列的几何之美，同时红黄蓝三色鲜明活泼，象征着在井然运作的秩序之中保留着缤纷多彩、自由跳脱的创造力。</string>
+    <string name="logo_introduction_en">We used the traditional Eight-Diagram pattern for the main part of our logo, suggesting our aspiration to convert and generate. The background of our logo is based on Mondrian\'s Broadway Boogie Woogie, which presents the geometric beauty of straight lines, while the vivid red, yellow and blue colors symbolize the colorful and free creativity remaining within the orderly symbolics of the world.</string>
+    <string name="menu_collection">收藏夹</string>
+    <string name="menu_collection_en">Collection</string>
+    <string name="menu_contact_us">联系我们</string>
+    <string name="menu_contact_us_en">Contact Us</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_home">首页</string>
+    <string name="menu_home_en">Home</string>
+    <string name="menu_my_contribution">我的贡献</string>
+    <string name="menu_my_contribution_en">Contribution</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_settings_en">Settings</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="module_description"> Describe your proposed module</string>
+    <string name="module_title"> Module title</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="new_module_instruction_en">Start your own module by sending us a proposal:</string>
+    <string name="origin_introduction">CONVERTER项目组内成员均为学生。在项目最初启动的一年中，我们关注“双减”背景下被迫失业待业，并面临转职的前教培老师群体，通过网络平台拓宽职业可能，致力于帮助教培人走出转职求职的困境；我们在各个平台发布的内容的到来共近15000+阅读量，也收获了许多关注者的回复反馈和支持。</string>
+    <string name="origin_introduction_en">All members of the CONVERTER project team are students. In the first year after the project was launched, we focused on the former teachers and trainees who were unemployed and faced job transfer under the implementation of double reduction. Through online platforms, we expanded their career possibilities, releasing their pressure from job transfer. The content we released on various platforms has been read by nearly 15,000 + people, and we\'ve received a lot of feedbacks and enthusiastic supports from our followers.</string>
+    <string name="prompt_comment">加入这条讨论……</string>
+    <string name="prompt_comment_en">Join this discussion……</string>
+    <string name="prompt_email"> 邮箱地址</string>
+    <string name="prompt_email_en"> Email</string>
+    <string name="prompt_instruction">编辑内容简介</string>
+    <string name="prompt_instruction_en">Edit the instruction</string>
+    <string name="prompt_message"> 在这里输入你的消息</string>
+    <string name="prompt_message_en"> Input your message here</string>
+    <string name="prompt_password"> 密码</string>
+    <string name="prompt_password_en"> Password</string>
+    <string name="resource_attachment">复制资源链接……</string>
+    <string name="resource_attachment_en">Copy resource link here...</string>
+    <string name="resource_content">输入资源内容……</string>
+    <string name="resource_content_en">Input resource content...</string>
+    <string name="resource_title">输入资源标题……</string>
+    <string name="resource_title_en">Input resource title...</string>
+    <string name="title_activity_collection">CollectionActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_introduction">IntroductionActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_philosophy_module">PhilosophyModuleActivity</string>
+    <string name="toast_login_success_en">Logged in successfully!</string>
+    <string name="toast_signup_success_en">Signed up successfully!</string>
+    <string name="user_community"> 你加入的社群：</string>
+    <string name="user_community_en"> Communities you joined:</string>
+    <string name="user_introduction">介绍一下自己</string>
+    <string name="user_introduction_en">Briefly introduce yourself...</string>
+    <string name="user_name">USER1234567</string>
+    <style name="Theme.Cvt" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/orange_bright</item>
+        <item name="colorPrimaryVariant">@color/orange_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/blue_bright</item>
+        <item name="colorSecondaryVariant">@color/blue_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor">@color/orange_dark</item>
+    </style>
+    <style name="Theme.Cvt.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Cvt.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Cvt.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

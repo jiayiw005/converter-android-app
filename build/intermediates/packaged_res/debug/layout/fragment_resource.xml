@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ResourceFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/content_layer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/title_layer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minHeight="130dp"
+                    android:background="@drawable/border1">
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:textSize="25sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="4dp"
+                        android:minHeight="50dp"
+                        android:text="Title"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:id="@+id/publisher"
+                        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title"
+                        android:layout_marginHorizontal="4dp"
+                        android:layout_marginTop="14dp"
+                        android:text="publisher"
+                        android:textColor="@color/grey"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/likenum"
+                        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginRight="15dp"
+                        android:text="(0)"
+                        android:textColor="@color/grey"
+                        android:textSize="17sp" />
+
+                    <ImageButton
+                        android:id="@+id/btn_like"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@id/title"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_toLeftOf="@id/likenum"
+                        android:adjustViewBounds="true"
+                        android:background="@color/white"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/like" />
+
+                    <TextView
+                        android:id="@+id/collectnum"
+                        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/title"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_toLeftOf="@id/btn_like"
+                        android:text="(0)"
+                        android:textColor="@color/grey"
+                        android:textSize="17sp" />
+
+                    <ImageButton
+                        android:id="@+id/btn_collect"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_below="@id/title"
+                        android:layout_toLeftOf="@id/collectnum"
+                        android:adjustViewBounds="true"
+                        android:backgroundTint="@color/white"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/baseline_collect_24" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_layer"
+                    android:background="@drawable/border1">
+                    <TextView
+                        android:id="@+id/content"
+                        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="370dp"
+                        android:text="contentcontentcontent"
+                        android:layout_marginHorizontal="4dp"/>
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/input_layer"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/orange_bright"
+        >
+
+        <Button
+            android:id="@+id/btn_view"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="View File"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".IntroductionActivity"
+    tools:showIn="@layout/activity_introduction">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_title_1_en"
+            android:textColor="@color/black"
+            android:shadowColor="@color/orange_dark"
+            android:shadowDx="-1"
+            android:shadowDy="-1"
+            android:shadowRadius="10"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:src="@mipmap/introduction_logo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/general_introduction_en"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/background_introduction_en"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:src="@mipmap/introduction_logo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logo_introduction_en"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_title_2_en"
+            android:textColor="@color/black"
+            android:shadowColor="@color/orange_dark"
+            android:shadowDx="-1"
+            android:shadowDy="-1"
+            android:shadowRadius="10"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/origin_introduction_en"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/current_introduction_en"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_title_3_en"
+            android:textColor="@color/black"
+            android:shadowColor="@color/orange_dark"
+            android:shadowDx="-1"
+            android:shadowDy="-1"
+            android:shadowRadius="10"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/goal_introduction_en"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_introduction_en"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

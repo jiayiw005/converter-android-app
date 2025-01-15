@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/activity_user_profile.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/contribution_list_row.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/contribution_list_row.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/activity_login.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_collection.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_collection.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_resource_center.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_resource_center.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/activity_homepage2.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/activity_homepage2.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_module.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_module.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/dialog_signin.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/dialog_signin.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_settings.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/activity_introduction.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/activity_introduction.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_resource.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_resource.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/collection_list_row.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/collection_list_row.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_new_discussion.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_new_discussion.xml"
+    },
+    {
+        "merged": "com.example.cvt.app-mergeDebugResources-43:/layout/fragment_contact.xml",
+        "source": "com.example.cvt.app-main-46:/layout/fragment_contact.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_contact.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_contact.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_contribution.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_contribution.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/content_homepage2.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/content_homepage2.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/activity_comment_list_row.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/activity_comment_list_row.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_new_module.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_new_module.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_new_resource.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_new_resource.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_discussion.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_discussion.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_introduction.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_introduction.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/activity_resource_list_row.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/activity_resource_list_row.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_home.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_signup.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_signup.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/content_introduction.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/content_introduction.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/fragment_profile.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/nav_header_homepage2.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/nav_header_homepage2.xml"
+    },
+    {
+        "merged": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-mergeDebugResources-43:/layout/app_bar_homepage2.xml",
+        "source": "/Users/nb_wjy/.gradle/daemon/7.5/com.example.cvt.app-main-46:/layout/app_bar_homepage2.xml"
+    }
+]
