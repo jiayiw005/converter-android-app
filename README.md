@@ -7,7 +7,7 @@ I decide to design a mobile application for Converter's client students for seve
 I use Android Studio as the tool to code in Java and generate XML resource files as it is a mature technical platform with a relatively lower threshold for application developers: a clear user interface, built-in templates and emulators, and well-organized official tutorials on the website that provide me with significant convenience as a starter of application design; it also provides functionalities to connect to the internet and cloud database and; moreover, it enables packing up the application into bundles, which includes all features and resources of the application and is ready to be downloaded by the end users. For the data storage, I use Alibaba Cloud SQL Database that I’m familiar with, so there aren’t many technical difficulties; its storage and speeds are comparable to commercial cloud databases while remaining much cheaper; the built-in security is also guaranteed. 
 
 ### Design Overview
-A Comprehensive design documentation available at [Application_Design.pdf]()
+A Comprehensive design documentation available at [Application_Design.pdf](https://github.com/jiayiw005/converter-android-app/blob/e4e2ffcdcab74d1911d623664711dd88a2388d9c/Application%20Design.pdf)
 
 ##### Overall Setup
 <img width="1370" alt="Screenshot 2025-01-15 at 13 58 36" src="https://github.com/user-attachments/assets/c798e50f-6614-444f-9919-907559e4a1a1" />
